@@ -1,0 +1,144 @@
+body{
+	margin:0;
+	padding: 0;
+	 font-family: sans-serif;
+
+}
+
+header {
+	padding: 20px 10px;
+	width: 100%;
+	height: 20%;
+	background-color: #fff;
+	overflow: hidden;
+}
+h1{
+	text-align: center;
+	color: #000;
+	background-color: rgba(70, 20, 45, 0.1);
+	padding: 27px;
+}
+
+.contain{
+	margin:240px auto;
+	width: 1200px;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+}
+
+.contain .block{
+position: relative;
+background:#000;
+float: left;
+margin: 15px;
+width: calc(400px - 30px);
+height: calc(300px - 30px);
+box-sizing: border-box;
+
+}
+.contain .block .icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #29AB87;
+	transition: 0.5s;
+	z-index: 1;
+}
+
+.contain .block:hover .icon{
+top: 20px;
+left: calc(50% - 40px);
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+
+.contain .block .icon .fa{
+	position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 80px;
+transition: 0.5s;
+color: #fff;
+border-radius: 50px;
+}
+.contain .block:hover .icon .fa{
+font-size: 40px;
+	}
+
+.contain .block .hold{
+	position: absolute;
+	top: 100%;
+	height: calc(100% - 100px);
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	opacity: 0;
+}
+
+.contain .block:hover .hold{
+top: 100px;
+opacity: 1;
+	}
+
+.contain .block .hold h3{
+margin: 0 0 10px;
+padding: 0;
+color: #fff;
+font-size: 24px;
+}
+
+.contain .block .hold p{
+	margin:0;
+	padding: 0;
+	color: #fff;
+}
+.contain .block .hold li{
+	color: #fff;
+}
+
+.contain .block:nth-child(1) .icon{
+background:#319635;
+}
+.contain .block:nth-child(1) {
+background:#4caf50;
+}
+
+.contain .block:nth-child(2) .icon{
+background:#d03852;
+}
+.contain .block:nth-child(2) {
+background:#f54967;
+}
+
+.contain .block:nth-child(3) .icon{
+background:#23798e;
+}
+.contain .block:nth-child(3) {
+background:#328fa5;
+}
+
+.contain .block:nth-child(4) .icon{
+background:#808080;
+}
+.contain .block:nth-child(4) {
+background:#A9A9A9;
+}
+
+.contain .block:nth-child(5) .icon{
+background:#FF8C00;
+}
+.contain .block:nth-child(5) {
+background:#FFA500;
+}
+
+.contain .block:nth-child(6) .icon{
+background:#000080;
+}
+.contain .block:nth-child(6) {
+background:#00008B;
+}
